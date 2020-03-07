@@ -11,7 +11,7 @@ module.exports = {
         link: '/'
       },
       {
-        name: 'Collections',
+        name: 'Portfolio',
         link: '/collections'
       }
     ],

@@ -93,8 +93,6 @@ function CollectionPage() {
   return (
     <div className="collection-page-container">
       <div className="thumb-container">
-        <Image fluid={getThumbImage().node.childImageSharp.fluid} />
-        <IndexCard index={page + 1} />
       </div>
 
       <div className="large">

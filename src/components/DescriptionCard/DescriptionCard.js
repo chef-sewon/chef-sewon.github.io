@@ -16,7 +16,7 @@ function DescriptionCard({ noCrown, noButton, longDescription, titleStyle, title
       <p className={classnames('description', { 'description-long': longDescription })}>{description}</p>
       {
         !noButton &&
-        <Button className="action-btn" type={'secondary'} size={'large'} onClick={() => navigate('/collections')}> Collections → </Button>
+        <Button className="action-btn" type={'secondary'} size={'large'} onClick={() => navigate('/collections')}> Portfolio → </Button>
       }
     </div>
   )
@@ -33,8 +33,8 @@ DescriptionCard.propTypes = {
 
 
 DescriptionCard.defaultProps = {
-  title: ' Fashion by Awesome Person',
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+  title: ' Chef Sewon Kwon',
+  description: '여기에는 간단한 이력을 적읍시다'
 }
 
 export default DescriptionCard
