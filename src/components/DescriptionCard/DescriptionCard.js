@@ -39,7 +39,7 @@ var resume_4 = 'Vinga(Wine Bistro)(2018.11 ~ 2019.12)'
 
 DescriptionCard.defaultProps = {
   title: ' Chef Sewon Kwon',
-  description: resume_1 + '\n' + resume_1_1 + '\n\n' + resume_2 + '\n\n'+ resume_3 + '\n\n' + resume_4
+  description: resume_1 + resume_1_1 + '\n\n' + resume_2 + '\n\n'+ resume_3 + '\n\n' + resume_4
 }
 
 export default DescriptionCard
