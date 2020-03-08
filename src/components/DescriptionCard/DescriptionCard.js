@@ -31,7 +31,7 @@ DescriptionCard.propTypes = {
   description: PropTypes.string
 }
 
-var resume_1 = 'Le Cordon bleu in Sydney Commercial Cookery Certificate 3'
+var resume_1 = 'Le Cordon bleu in Sydney Commercial Cookery Certificate 3 '
 var resume_1_1 = '(2015.10 ~ 2017.01) Merivale full time worker' 
 var resume_2 = 'Felix (Sydney, 1hat restaurant French bistro) (2016.05 ~ 2018.01)'
 var resume_3 = 'Bert\'s (Sydney, 2hat restaurant Bar and Brasserie)(2018.01 ~ 2018.08)'
