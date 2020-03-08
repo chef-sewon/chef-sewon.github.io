@@ -31,10 +31,15 @@ DescriptionCard.propTypes = {
   description: PropTypes.string
 }
 
+var resume_1 = 'Le Cordon bleu in Sydney Commercial Cookery Certificate 3'
+var resume_1_1 = '(2015.10 ~ 2017.01) Merivale full time worker' 
+var resume_2 = 'Felix (Sydney, 1hat restaurant French bistro) (2016.05 ~ 2018.01)'
+var resume_3 = 'Bert\'s (Sydney, 2hat restaurant Bar and Brasserie)(2018.01 ~ 2018.08)'
+var resume_4 = 'Vinga(Wine Bistro)(2018.11 ~ 2019.12)' 
 
 DescriptionCard.defaultProps = {
   title: ' Chef Sewon Kwon',
-  description: 'Le Cordon bleu in Sydney Commercial Cookery Certificate 3 (2015.10 ~ 2017.01)Merivale full time worker\n  Felix (Sydney, 1hat restaurant French bistro) (2016.05 ~ 2018.01)\nBert\'s (Sydney, 2hat restaurant Bar and Brasserie)(2018.01 ~ 2018.08) Vinga(Wine Bistro)(2018.11 ~ 2019.12)'
+  description: resume_1 + '\n' + resume_1_1 + '\n\n' + resume_2 + '\n\n'+ resume_3 + '\n\n' + resume_4
 }
 
 export default DescriptionCard
