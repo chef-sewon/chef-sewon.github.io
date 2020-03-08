@@ -34,7 +34,7 @@ DescriptionCard.propTypes = {
 
 DescriptionCard.defaultProps = {
   title: ' Chef Sewon Kwon',
-  description: '여기에는 간단한 이력을 적읍시다'
+  description: 'Le Cordon bleu in Sydney Commercial Cookery Certificate 3 (2015.10 ~ 2017.01)Merivale full time worker\n  Felix (Sydney, 1hat restaurant French bistro) (2016.05 ~ 2018.01)\nBert\'s (Sydney, 2hat restaurant Bar and Brasserie)(2018.01 ~ 2018.08) Vinga(Wine Bistro)(2018.11 ~ 2019.12)'
 }
 
 export default DescriptionCard

@@ -2,9 +2,9 @@ const path = require('path')
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Fashion Portfolio Starter`,
-    description: `Beautiful portfolio for your fashion career.`,
-    author: `@shobhitchittora`,
+    title: `Chef Sewon Kwon portfolio`,
+    description: `Portfolio`,
+    author: `@chef.sewon`,
     menuLinks: [
       {
         name: 'Home',
@@ -17,24 +17,8 @@ module.exports = {
     ],
     socialLinks: [
       {
-        name: 'fb',
-        link: 'http://fb.com'
-      },
-      {
-        name: 'twitter',
-        link: 'http://twitter.com'
-      },
-      {
-        name: 'instagram',
-        link: 'http://instagram.com'
-      },
-      {
-        name: 'pinterest',
-        link: 'http://pinterest.com'
-      },
-      {
         name: 'gmail',
-        link: 'mailto:chittorashobhit@gmail.com'
+        link: 'mailto:chef.sewon@gmail.com'
       }
     ]
   },
